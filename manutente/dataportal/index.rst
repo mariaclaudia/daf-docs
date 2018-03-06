@@ -39,7 +39,14 @@ Nell'area privata è possibile [1]_:
 
 * Utilizzare Jupyter Notebook integrato con il cluster big data del DAF, da cui effettuare analisi esplorative fino a complessi modelli di machine learning.
 
-Si rimanda alle relative sezioni di questa guida per una introduzione più dettagliata dei diversi strumenti messi a disposizione.
+Si rimanda alle relative sezioni di questa guida per una descrizione più dettagliata delle funzionalità disponibili:
+.. toctree::
+   :maxdepth: 2
+
+    Iscrizione e accesso all'area privata <accesso>
+    Registrazione e accesso ai dataset <dataset>
+    Pubblicazione di Dashboard e Data Story <dashboard>
+    Amministrazione di utenti e organizzazioni <organization>
 
 
 .. [1] Elenco non esaustivo e in evoluzione.
