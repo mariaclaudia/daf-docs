@@ -22,10 +22,9 @@ Ogni dashboard è indicata da una *card* grazie cui si individuano subito:
 - Il numero di *widget* di cui si compone;
 - Il *dataset* cui fa riferimento.
 
-Cliccando sul titolo della dashboard si ha la possibilità di visualizzare la dashboard. Immediatamente sotto al titolo compare un tag che indica l'organizzazione cui la dashboard appartiene.
+Cliccando sul titolo si ha la possibilità di visualizzare la dashboard. Immediatamente sotto al titolo compare un tag che indica l'organizzazione cui la dashboard appartiene.
 
 Quindi, si ha la possibilità di modificare la dashboard. Una volta effettuate le modifiche, per pubblicarla ed uscire dalla modalità *bozza*, occorre salvare e pubblicare utilizzando l'icona apposita. Le modalità di *edit* corrispondono a quelle di creazione e sono riportate nel paragrafo seguente.
-
 
 
 
@@ -44,15 +43,15 @@ In entrambi i casi è chiesto di inserire delle informazioni di base sulla nuova
 - Il *sottotitolo*;
 - Se ha *visibilità* privata o pubblica, nel caso di visibilità privata è richiesto indicare l'organizzazione di riferimento.
 
-Una volta inserite queste informazioni apparire la seguente schermata su cui iniziare a lavorare.
+Quindi, appare la seguente schermata su cui iniziare a lavorare.
 
 .. image:: crea_dash.png
    :width: 40pt
 
-Per iniziare a popolare la dashboard si preme il tasto *Aggiungi*. Quindi, si ha la possibilità di aggiungere un widget. 
+Per iniziare a popolare la dashboard si preme il tasto *Aggiungi* attivando la funzionalità di aggiungere un widget. 
 
 
-Si definisce **widget** della dashboard un elemento di testo o una slice importata da `Superset <https://github.com/italia/daf-docs/blob/master/manutente/datascience/superset.rst>`_ o `Metabase <http://daf-docs.readthedocs.io/en/latest/manutente/datascience/metabase.html>`_. I widget vengono selezionati tra quelli esistenti cui si ha accesso e che sono mostrati nella finestra seguente.
+Si definisce **widget** della dashboard un elemento di testo o una slice importata da `Superset <https://github.com/italia/daf-docs/blob/master/manutente/datascience/superset.rst>`_ o `Metabase <http://daf-docs.readthedocs.io/en/latest/manutente/datascience/metabase.html>`_. I widget vengono selezionati tra quelli esistenti a cui si ha accesso e che sono mostrati nella finestra seguente.
 	
 .. image:: widget_dash.png
   :width: 40pt
@@ -70,6 +69,7 @@ A seguire un esempio di dashboard.
 
 .. image:: dashboard.png
   :width: 40pt
+
 ================
 Le mie storie
 ================
@@ -77,7 +77,7 @@ Le mie storie
 Una Storia, detta anche Data Story, è una modalità di presentazione, simile ad un blog post, che alterna parti testuali a grafici/widget realizzati tramite Superset.
 
 
-Per visualizzare le proprie storie si sceglie, dal menù principale, la sezione *Storie*. Questa mostra tutte le stori create dall'utente, dagli utenti appartenenti alla sua stessa organizzazione e quelle la cui visibilità è aperta a tutti. Analogamente a quanto accade per *Le mie dashboard*, l'elenco mostrato può essere filtrato usufruendo dell'apposita barra di ricerca.
+Per visualizzare le proprie storie si sceglie, dal menù principale, la sezione *Storie*. Questa mostra tutte le storie create dall'utente, dagli utenti appartenenti alla sua stessa organizzazione e quelle la cui visibilità è aperta a tutti. Analogamente a quanto accade per *Le mie dashboard*, l'elenco mostrato può essere filtrato usufruendo dell'apposita barra di ricerca.
 
 Ogni storia è indicata da una *card* su cui appaiono:
 
@@ -90,3 +90,29 @@ Ogni storia è indicata da una *card* su cui appaiono:
 Creazione di una nuova storia
 ================================
 
+Per creare una storia, trovandosi su *Le mie storie*, è sufficiente premere sull'icona con il ``+`` che si trova alla destra della barra di ricerca.
+
+Oppure, dal menù principale, si clicca su *Crea* scegliendo di creare una storia.
+
+Quindi si inseriscono le informazioni relative alla storia quali:
+
+- *Titolo*;
+- *Privata* o *pubblica*.
+
+Una volta inserite queste informazioni appare la seguente schermata su cui iniziare a lavorare.
+
+.. image:: edit_storia.png
+   :width: 40pt
+
+Si è nella modalità di editing della storia. Pertanto è possibile:
+
+- Modificare il *titolo*;
+- Inserire il *sottotitolo*;
+- Lavorare al contenuto della storia.
+
+Il contenuto della storia è popolato inserendo i widget con le stesse modalità indicate per la dashboard. 
+Per eliminare una dashboard occorre entrare in modalità *modifica* della storia e premere il pulsante *Elimina*.
+A seguire un esempio di data story.
+
+.. image:: test_storia.png
+   :width: 40pt
