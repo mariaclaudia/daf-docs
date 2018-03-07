@@ -66,6 +66,10 @@ Durante il processo di creazione della dashboard è possible visualizzarne l'*an
 
 Per eliminare una dashboard occorre entrare in modalità *modifica* della storia e premere il pulsante *Elimina*.
 
+A seguire un esempio di dashboard.
+
+.. image:: dashboard.png
+  :width: 40pt
 ================
 Le mie storie
 ================
