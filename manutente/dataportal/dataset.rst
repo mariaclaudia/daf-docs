@@ -1,6 +1,7 @@
 **********************************
-Registrazione e accesso ai dataset
+Registrazione e accesso ai dataset 
 **********************************
+12 marzo 2017
 L'inserimento e la gestione dei dataset sul DAF è concesso a specifiche utenze dell'organizzazione che assumono il ruolo di *editor*. Tali operazioni possono essere eseguite sfruttando le funzionalità presenti nel menu *Azioni > Dataset*.
 
 =================================
